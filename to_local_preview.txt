@@ -1,0 +1,9 @@
+
+to preview changes to the web locally
+
+bundle exec jekyll serve
+
+
+for other stuff - see this guy's post
+
+https://jayrobwilliams.com/posts/2020/06/academic-website/
