@@ -28,14 +28,14 @@ def create_md_file(title, venue, year):
     try:
         # Create markdown content
         content = f"""---
-        title: "{title}"
-        collection: publications
-        permalink: /publication/{os.path.splitext(filename)[0]}
-        date: {year}-01-01
-        venue: '{venue}'
-        paperurl: ''
-        link: '{pub.get('eprint_url', '')}'
-        ---"""
+title: "{title}"
+collection: publications
+permalink: /publication/{os.path.splitext(filename)[0]}
+date: {year}-01-01
+venue: '{venue}'
+paperurl: ''
+link: '{pub.get('eprint_url', '')}'
+---"""
 
         # Write to file
         with open(filepath, "w", encoding="utf-8") as f:
