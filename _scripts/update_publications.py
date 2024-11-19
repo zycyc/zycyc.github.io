@@ -33,8 +33,8 @@ collection: publications
 permalink: /publication/{os.path.splitext(filename)[0]}
 date: {year}-01-01
 venue: '{venue}'
-paperurl: ''
-link: '{pub.get('eprint_url', '')}'
+paperurl: '{pub.get('eprint_url', '')}'
+link: '{pub.get('pub_url', '')}'
 ---"""
 
         # Write to file
