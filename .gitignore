@@ -21,12 +21,20 @@ yarn-debug.log*
 yarn-error.log*
 package-lock.json
 
-# Jekyll (if you're using Jekyll for GitHub Pages)
+# Jekyll
 _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
 vendor/
+.bundle/
+
+# Jekyll build files
+*.gem
+_drafts/
+
+# Backup directory
+_old_site/
 
 # Python (if you have any Python scripts)
 __pycache__/
