@@ -7,7 +7,7 @@ This is a minimalist personal website built with Jekyll and GitHub Pages. It fea
 - GitHub Pages deployment
 - Responsive design for all devices
 
-# Repository Structure (Simplified)
+# Repository Structure
 
 ```
 .
